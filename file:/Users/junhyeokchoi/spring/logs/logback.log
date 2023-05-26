@@ -1,0 +1,631 @@
+[2023-05-24 09:12:33:2207][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-24 09:12:33:2254][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 75 mappings in 'requestMappingHandlerMapping'
+[2023-05-24 09:12:33:2579][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-24 09:12:33:2590][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-24 09:12:35:4845][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-05-24 09:12:35:4846][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2023-05-24 09:12:35:4846][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[2023-05-24 09:12:35:4846][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+[2023-05-24 09:12:35:4847][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@35ffe4a8
+[2023-05-24 09:12:35:4848][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5223b36a
+[2023-05-24 09:12:35:4848][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2023-05-24 09:12:35:4848][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[2023-05-24 09:12:35:4858][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-05-24 09:12:35:4860][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main(Model)
+[2023-05-24 09:12:35:4982][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 09:12:35:4982][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {weatherinfo=○ (강수) 28일(일) 오후 중부지방과 전북에, 29일(월) 전국에 비가 오겠습니다.
+○ (기온) 이번 예보기간 아침 기온은 13~21도로 평년(최저기온 13~17도)과 비슷하거나 조금 높겠고, 낮 기온은 21~29도로 평년(최고기온 23~28도)과 비슷하겠습니다.
+○ (주말전망) 27일(토) 전국이 대체로 흐리겠고, 28일(일)은 전국이 대체로 흐리고 오후에 중부지방과 전북에 비가 오겠습니다. 
+              아침 기온은 16~20도, 낮 기온은 22~29도가 되겠습니다.
+
+* 이번 예보기간에는 우리나라 주변 기압계의 변화에 따라 강수시점과 구역이 변경될 가능성이 있으니, 앞으로 발표되는 최신 예보를 참고하기 바랍니다.}
+[2023-05-24 09:12:35:4984][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 09:12:36:5496][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:36:5543][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 09:12:36:5543][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 09:12:36:5544][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 09:12:36:5547][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:36:5547][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:36:5547][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:36:5556][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:36:5556][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:36:5557][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:36:5807][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/weather3", parameters={}
+[2023-05-24 09:12:36:5807][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#weather3()
+[2023-05-24 09:12:36:5846][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+[2023-05-24 09:12:36:5847][http-nio-80-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:36:5848][http-nio-80-exec-6] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+[2023-05-24 09:12:36:5848][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2023-05-24 09:12:36:5849][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2023-05-24 09:12:36:5850][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+[2023-05-24 09:12:36:5859][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:12:36:5859][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed May 24 09:12:36 KST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2023-05-24 09:12:36:5881][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2023-05-24 09:12:36:5908][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-05-24 09:12:36:5908][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main(Model)
+[2023-05-24 09:12:36:5994][http-nio-80-exec-7] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 09:12:36:5994][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {weatherinfo=○ (강수) 28일(일) 오후 중부지방과 전북에, 29일(월) 전국에 비가 오겠습니다.
+○ (기온) 이번 예보기간 아침 기온은 13~21도로 평년(최저기온 13~17도)과 비슷하거나 조금 높겠고, 낮 기온은 21~29도로 평년(최고기온 23~28도)과 비슷하겠습니다.
+○ (주말전망) 27일(토) 전국이 대체로 흐리겠고, 28일(일)은 전국이 대체로 흐리고 오후에 중부지방과 전북에 비가 오겠습니다. 
+              아침 기온은 16~20도, 낮 기온은 22~29도가 되겠습니다.
+
+* 이번 예보기간에는 우리나라 주변 기압계의 변화에 따라 강수시점과 구역이 변경될 가능성이 있으니, 앞으로 발표되는 최신 예보를 참고하기 바랍니다.}
+[2023-05-24 09:12:36:5995][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 09:12:36:5997][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:36:6029][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 09:12:36:6029][http-nio-80-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:36:6030][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 09:12:36:6031][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:36:6031][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 09:12:36:6031][http-nio-80-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:36:6031][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:36:6034][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:36:6034][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:36:6071][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/weather3", parameters={}
+[2023-05-24 09:12:36:6072][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#weather3()
+[2023-05-24 09:12:37:7063][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:12:37:7067][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{"response":{"header":{"resultCode":"00","resultMsg":"NORMAL_SERVICE"},"body":{"pageNo":1,"dataType" (truncated)...]
+[2023-05-24 09:12:37:7074][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:40:9763][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:12:40:9765][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{"response":{"header":{"resultCode":"00","resultMsg":"NORMAL_SERVICE"},"body":{"pageNo":1,"dataType" (truncated)...]
+[2023-05-24 09:12:40:9767][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:43:12303][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ajax", parameters={}
+[2023-05-24 09:12:43:12305][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxController#main(Model)
+[2023-05-24 09:12:43:12308][http-nio-80-exec-2] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 09:12:43:12308][http-nio-80-exec-2] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {left=ajax/left, center=ajax/center}
+[2023-05-24 09:12:43:12308][http-nio-80-exec-2] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 09:12:43:12372][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:43:12387][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 09:12:43:12387][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 09:12:43:12387][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 09:12:43:12388][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:43:12388][http-nio-80-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:43:12388][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:43:12389][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:43:12389][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:43:12389][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:44:13219][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ajax/ajax01", parameters={}
+[2023-05-24 09:12:44:13220][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxController#ajax01(Model)
+[2023-05-24 09:12:44:13221][http-nio-80-exec-7] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 09:12:44:13222][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {left=ajax/left, center=ajax/ajax01}
+[2023-05-24 09:12:44:13222][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 09:12:44:13278][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:44:13292][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 09:12:44:13293][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 09:12:44:13292][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 09:12:44:13293][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:44:13293][http-nio-80-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:44:13293][http-nio-80-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:44:13295][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:44:13296][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:44:13298][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:46:15676][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ajax/ajax02", parameters={}
+[2023-05-24 09:12:46:15682][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxController#ajax02(Model)
+[2023-05-24 09:12:46:15690][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 09:12:46:15690][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {left=ajax/left, center=ajax/ajax02}
+[2023-05-24 09:12:46:15690][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 09:12:46:15724][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:46:15737][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 09:12:46:15737][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 09:12:46:15737][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:46:15737][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 09:12:46:15737][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:46:15738][http-nio-80-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:46:15739][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:46:15739][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:46:15740][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:47:16540][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ajax/ajax03", parameters={}
+[2023-05-24 09:12:47:16541][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxController#ajax03(Model)
+[2023-05-24 09:12:47:16543][http-nio-80-exec-4] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 09:12:47:16543][http-nio-80-exec-4] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {left=ajax/left, center=ajax/ajax03}
+[2023-05-24 09:12:47:16543][http-nio-80-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 09:12:47:16588][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:47:16602][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 09:12:47:16603][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:47:16602][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 09:12:47:16603][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 09:12:47:16603][http-nio-80-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:47:16603][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:47:16603][http-nio-80-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:47:16605][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:47:16605][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:48:17328][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ajax/ajax04", parameters={}
+[2023-05-24 09:12:48:17328][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxController#ajax04(Model)
+[2023-05-24 09:12:48:17329][http-nio-80-exec-8] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 09:12:48:17330][http-nio-80-exec-8] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {left=ajax/left, center=ajax/ajax04}
+[2023-05-24 09:12:48:17330][http-nio-80-exec-8] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 09:12:48:17370][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:48:17385][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 09:12:48:17386][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 09:12:48:17386][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:48:17386][http-nio-80-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:48:17387][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 09:12:48:17387][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:48:17390][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:48:17393][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:48:17393][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:48:17990][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ajax/ajax03", parameters={}
+[2023-05-24 09:12:48:17990][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxController#ajax03(Model)
+[2023-05-24 09:12:48:17991][http-nio-80-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 09:12:48:17991][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {left=ajax/left, center=ajax/ajax03}
+[2023-05-24 09:12:48:17991][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 09:12:48:17993][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:48:18002][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 09:12:48:18003][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 09:12:48:18003][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 09:12:48:18003][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:48:18002][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 09:12:48:18005][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 09:12:48:18006][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:48:18007][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:48:18018][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:51:21048][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:12:51:21048][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:12:51:21073][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:12:51:21073][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron69","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry44","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:12:51:21074][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:54:24056][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:12:54:24057][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:12:54:24060][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:12:54:24060][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron52","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry42","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:12:54:24063][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:12:57:27051][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:12:57:27052][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:12:57:27054][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:12:57:27054][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron66","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry92","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:12:57:27055][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:00:30045][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:00:30045][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:00:30046][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:00:30046][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron85","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry31","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:00:30048][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:03:33044][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:03:33046][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:03:33054][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:03:33054][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron87","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry91","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:03:33061][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:06:36044][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:06:36045][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:06:36045][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:06:36046][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron92","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry33","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:06:36047][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:11:40127][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:11:40129][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:11:40144][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:11:40145][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron85","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry30","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:11:40148][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:14:43230][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:14:43232][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:14:43235][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:14:43236][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron24","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry7","id":"id02","pwd":"pwd (truncated)...]
+[2023-05-24 09:13:14:43238][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:17:46776][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:17:46777][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:17:46780][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:17:46781][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron56","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry33","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:17:46783][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:20:49527][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:20:49529][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:20:49531][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:20:49532][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron20","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry19","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:20:49533][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:23:52633][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:23:52635][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:23:52636][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:23:52636][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron56","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry89","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:23:52637][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:26:55587][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:26:55590][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:26:55592][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:26:55593][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron54","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry41","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:26:55594][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:29:58606][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:29:58607][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:29:58609][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:29:58609][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron40","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry87","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:29:58610][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:32:61604][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:32:61605][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:32:61609][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:32:61609][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron58","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry83","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:32:61611][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:35:64604][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:35:64606][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:35:64609][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:35:64609][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron3","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry38","id":"id02","pwd":"pwd (truncated)...]
+[2023-05-24 09:13:35:64612][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:37:67005][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:37:67005][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:37:67009][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:37:67009][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron7","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry62","id":"id02","pwd":"pwd (truncated)...]
+[2023-05-24 09:13:37:67010][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:41:70308][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:41:70310][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:41:70313][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:41:70313][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron59","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry92","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:41:70315][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:44:73306][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:44:73306][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:44:73307][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:44:73307][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron39","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry58","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:44:73307][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:47:76234][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:47:76236][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:47:76239][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:47:76239][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron12","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry45","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:47:76241][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:50:79648][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:50:79649][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:50:79652][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:50:79653][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron72","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry28","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:50:79654][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:53:82390][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:53:82391][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:53:82395][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:53:82395][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron73","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry40","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:53:82397][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:56:85671][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:56:85673][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:56:85677][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:56:85678][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron74","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry1","id":"id02","pwd":"pwd (truncated)...]
+[2023-05-24 09:13:56:85681][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:13:59:88566][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:13:59:88567][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:13:59:88569][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:13:59:88570][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron65","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry95","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:13:59:88571][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:14:02:91637][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:14:02:91638][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:14:02:91641][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:14:02:91641][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron39","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry64","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:14:02:91643][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:14:05:94570][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:14:05:94571][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:14:05:94572][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:14:05:94572][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron45","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry77","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:14:05:94573][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:14:08:97589][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:14:08:97590][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:14:08:97594][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:14:08:97594][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron73","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry96","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:14:08:97597][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:14:50:139151][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:14:50:139153][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:14:50:139156][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:14:50:139156][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron40","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry3","id":"id02","pwd":"pwd (truncated)...]
+[2023-05-24 09:14:50:139158][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:15:55:204434][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:15:55:204436][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:15:55:204439][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:15:55:204440][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron32","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry95","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:15:55:204443][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:17:07:276492][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:17:07:276494][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:17:07:276498][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:17:07:276499][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron88","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry79","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:17:07:276501][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:17:50:319652][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:17:50:319655][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:17:50:319660][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:17:50:319660][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron86","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry46","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:17:50:319665][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:19:03:392567][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:19:03:392569][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:19:03:392572][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:19:03:392573][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron69","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry82","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:19:03:392574][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:20:00:449560][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:20:00:449563][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:20:00:449579][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:20:00:449579][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron85","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry83","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:20:00:449582][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:20:55:504282][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:20:55:504284][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:20:55:504288][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:20:55:504289][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron16","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry76","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:20:55:504291][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:21:48:558052][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:21:48:558068][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:21:48:558073][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:21:48:558074][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron66","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry21","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:21:48:558077][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:22:48:617676][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:22:48:617678][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:22:48:617682][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:22:48:617683][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron73","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry77","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:22:48:617685][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:24:13:702958][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:24:13:702960][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:24:13:702964][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:24:13:702964][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron32","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry44","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:24:13:702966][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:25:04:753414][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:25:04:753416][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:25:04:753418][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:25:04:753418][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron87","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry85","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:25:04:753419][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:26:02:811128][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:26:02:811131][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:26:02:811135][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:26:02:811136][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron29","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry38","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:26:02:811138][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:26:57:867023][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:26:57:867024][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:26:57:867028][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:26:57:867029][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron11","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry70","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:26:57:867031][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:27:50:919632][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:27:50:919634][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:27:50:919638][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:27:50:919639][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron54","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry72","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:27:50:919641][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:29:06:995407][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:29:06:995410][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:29:06:995414][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:29:06:995415][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron33","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry80","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:29:06:995417][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:29:51:1040436][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:29:51:1040454][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:29:51:1040480][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:29:51:1040481][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron89","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry99","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:29:51:1040486][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:53:38:2467473][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:53:38:2467481][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:53:38:2467489][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:53:38:2467493][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron61","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry99","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:53:38:2467511][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:55:40:2589818][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:55:40:2589822][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:55:40:2589834][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:55:40:2589835][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron89","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry39","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:55:40:2589840][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:56:33:2642967][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:56:33:2642969][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:56:33:2642973][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:56:33:2642974][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron73","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry86","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:56:33:2642976][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 09:57:45:2714928][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getdata", parameters={}
+[2023-05-24 09:57:45:2714930][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getdata(Object)
+[2023-05-24 09:57:45:2714934][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-24 09:57:45:2714934][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[{"name":"James Lebron45","id":"id01","pwd":"pwd01"},{"name":"Stephen Curry75","id":"id02","pwd":"pw (truncated)...]
+[2023-05-24 09:57:45:2714936][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:15:1470][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-24 10:32:16:1505][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 75 mappings in 'requestMappingHandlerMapping'
+[2023-05-24 10:32:16:1634][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /uimg/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-24 10:32:16:1642][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-24 10:32:24:10337][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-05-24 10:32:24:10338][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2023-05-24 10:32:24:10339][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[2023-05-24 10:32:24:10339][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+[2023-05-24 10:32:24:10341][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5682fb6f
+[2023-05-24 10:32:24:10341][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@23a385c0
+[2023-05-24 10:32:24:10341][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2023-05-24 10:32:24:10341][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[2023-05-24 10:32:24:10380][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-05-24 10:32:24:10382][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main(Model)
+[2023-05-24 10:32:25:10548][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:32:25:10548][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {weatherinfo=○ (강수) 28일(일) 오후 중부지방과 전북에, 29일(월) 전국에 비가 오겠습니다.
+○ (기온) 이번 예보기간 아침 기온은 13~21도로 평년(최저기온 13~17도)과 비슷하거나 조금 높겠고, 낮 기온은 21~29도로 평년(최고기온 23~28도)과 비슷하겠습니다.
+○ (주말전망) 27일(토) 전국이 대체로 흐리겠고, 28일(일)은 전국이 대체로 흐리고 오후에 중부지방과 전북에 비가 오겠습니다. 
+              아침 기온은 16~20도, 낮 기온은 22~29도가 되겠습니다.
+
+* 이번 예보기간에는 우리나라 주변 기압계의 변화에 따라 강수시점과 구역이 변경될 가능성이 있으니, 앞으로 발표되는 최신 예보를 참고하기 바랍니다.}
+[2023-05-24 10:32:25:10550][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:32:25:11005][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:25:11044][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:32:25:11044][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:32:25:11045][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:32:25:11047][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:32:25:11047][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:32:25:11047][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:32:25:11054][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:25:11054][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:25:11055][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:25:11157][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/weather3", parameters={masked}
+[2023-05-24 10:32:25:11158][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:32:25:11158][http-nio-80-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected '*/*' given [*/*]
+[2023-05-24 10:32:25:11158][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:32:25:11158][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:32:25:11192][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:26:12348][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login", parameters={}
+[2023-05-24 10:32:26:12348][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:32:26:12349][http-nio-80-exec-7] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:32:26:12350][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:32:26:12350][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:32:26:12352][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:26:12370][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:32:26:12370][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:32:26:12371][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:32:26:12371][http-nio-80-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:32:26:12372][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:32:26:12375][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:26:12375][http-nio-80-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:32:26:12378][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:26:12379][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:31:16513][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/loginimpl", parameters={masked}
+[2023-05-24 10:32:31:16514][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#loginimpl(Model, String, String, HttpSession)
+[2023-05-24 10:32:32:17681][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Failed to complete request: java.lang.Exception: System Error
+[2023-05-24 10:32:32:17689][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={masked}
+[2023-05-24 10:32:32:17691][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+[2023-05-24 10:32:32:17707][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2023-05-24 10:32:32:17713][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 500
+[2023-05-24 10:32:33:18520][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login", parameters={}
+[2023-05-24 10:32:33:18525][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:32:33:18532][http-nio-80-exec-4] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:32:33:18532][http-nio-80-exec-4] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:32:33:18533][http-nio-80-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:32:33:18538][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:33:18548][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:32:33:18548][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:32:33:18548][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:32:33:18549][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:32:33:18549][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:32:33:18550][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:32:33:18554][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:33:18554][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:32:33:18554][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:10:176069][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-24 10:35:10:176114][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 75 mappings in 'requestMappingHandlerMapping'
+[2023-05-24 10:35:10:176436][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /uimg/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-24 10:35:10:176460][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-24 10:35:23:189221][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-05-24 10:35:23:189222][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2023-05-24 10:35:23:189222][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[2023-05-24 10:35:23:189222][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+[2023-05-24 10:35:23:189227][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5dd51aef
+[2023-05-24 10:35:23:189227][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5312ef25
+[2023-05-24 10:35:23:189227][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2023-05-24 10:35:23:189228][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[2023-05-24 10:35:23:189244][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/cust", parameters={masked}
+[2023-05-24 10:35:23:189245][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:35:23:189255][http-nio-80-exec-2] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:35:23:189256][http-nio-80-exec-2] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:35:23:189256][http-nio-80-exec-2] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:35:23:189379][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:23:189431][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:35:23:189433][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:35:23:189434][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:35:23:189435][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:35:23:189435][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:23:189435][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:23:189435][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:23:189439][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:23:189439][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:24:189924][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/ajax", parameters={masked}
+[2023-05-24 10:35:24:189924][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:35:24:189925][http-nio-80-exec-7] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:35:24:189925][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:35:24:189925][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:35:24:189928][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:24:189942][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:35:24:189943][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:24:189944][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:35:24:189944][http-nio-80-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:35:24:189946][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:35:24:189946][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:24:189947][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:24:189947][http-nio-80-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:24:189950][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:25:190752][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-05-24 10:35:25:190752][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main(Model)
+[2023-05-24 10:35:25:190888][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:35:25:190888][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {weatherinfo=○ (강수) 28일(일) 오후 중부지방과 전북에, 29일(월) 전국에 비가 오겠습니다.
+○ (기온) 이번 예보기간 아침 기온은 13~21도로 평년(최저기온 13~17도)과 비슷하거나 조금 높겠고, 낮 기온은 21~29도로 평년(최고기온 23~28도)과 비슷하겠습니다.
+○ (주말전망) 27일(토) 전국이 대체로 흐리겠고, 28일(일)은 전국이 대체로 흐리고 오후에 중부지방과 전북에 비가 오겠습니다. 
+              아침 기온은 16~20도, 낮 기온은 22~29도가 되겠습니다.
+
+* 이번 예보기간에는 우리나라 주변 기압계의 변화에 따라 강수시점과 구역이 변경될 가능성이 있으니, 앞으로 발표되는 최신 예보를 참고하기 바랍니다.}
+[2023-05-24 10:35:25:190889][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:35:25:190951][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:25:190966][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:35:25:190966][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:35:25:190967][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:35:25:190967][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:25:190967][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:25:190967][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:35:25:190969][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:25:190969][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:25:190969][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:25:191009][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/weather3", parameters={masked}
+[2023-05-24 10:35:25:191009][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:35:25:191010][http-nio-80-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected '*/*' given [*/*]
+[2023-05-24 10:35:25:191010][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:35:25:191010][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:35:25:191012][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:26:191907][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/cust", parameters={masked}
+[2023-05-24 10:35:26:191907][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:35:26:191908][http-nio-80-exec-10] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:35:26:191908][http-nio-80-exec-10] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:35:26:191908][http-nio-80-exec-10] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:35:26:191909][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:26:191929][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:35:26:191929][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:35:26:191930][http-nio-80-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:26:191930][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:35:26:191930][http-nio-80-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:35:26:191930][http-nio-80-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:26:191931][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:26:191933][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:26:191934][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:27:192742][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/ajax", parameters={masked}
+[2023-05-24 10:35:27:192743][http-nio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:35:27:192744][http-nio-80-exec-3] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:35:27:192745][http-nio-80-exec-3] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:35:27:192745][http-nio-80-exec-3] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:35:27:192746][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:27:192762][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:35:27:192763][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:35:27:192764][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:35:27:192764][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:27:192765][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:27:192767][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:35:27:192768][http-nio-80-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:35:27:192768][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:35:27:192770][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:12:358369][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/ocrbapl1", parameters={masked}
+[2023-05-24 10:38:12:358372][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:38:12:358376][http-nio-80-exec-8] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:38:12:358377][http-nio-80-exec-8] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:38:12:358377][http-nio-80-exec-8] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:38:12:358386][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:12:358417][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:38:12:358417][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:38:12:358418][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:38:12:358420][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:38:12:358420][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:38:12:358420][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:38:12:358423][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:12:358436][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:12:358436][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:18:363680][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-05-24 10:38:18:363682][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main(Model)
+[2023-05-24 10:38:18:363844][http-nio-80-exec-4] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:38:18:363844][http-nio-80-exec-4] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {weatherinfo=○ (강수) 28일(일) 오후 중부지방과 전북에, 29일(월) 전국에 비가 오겠습니다.
+○ (기온) 이번 예보기간 아침 기온은 13~21도로 평년(최저기온 13~17도)과 비슷하거나 조금 높겠고, 낮 기온은 21~29도로 평년(최고기온 23~28도)과 비슷하겠습니다.
+○ (주말전망) 27일(토) 전국이 대체로 흐리겠고, 28일(일)은 전국이 대체로 흐리고 오후에 중부지방과 전북에 비가 오겠습니다. 
+              아침 기온은 16~20도, 낮 기온은 22~29도가 되겠습니다.
+
+* 이번 예보기간에는 우리나라 주변 기압계의 변화에 따라 강수시점과 구역이 변경될 가능성이 있으니, 앞으로 발표되는 최신 예보를 참고하기 바랍니다.}
+[2023-05-24 10:38:18:363845][http-nio-80-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:38:18:363852][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:18:363892][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:38:18:363892][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:38:18:363894][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:38:18:363895][http-nio-80-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:38:18:363895][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:38:18:363895][http-nio-80-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:38:18:363898][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:18:363899][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:18:363900][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:18:363971][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/weather3", parameters={masked}
+[2023-05-24 10:38:18:363971][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:38:18:363971][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected '*/*' given [*/*]
+[2023-05-24 10:38:18:363971][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:38:18:363972][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:38:18:363974][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:19:364944][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-05-24 10:38:19:364944][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main(Model)
+[2023-05-24 10:38:21:367070][http-nio-80-exec-8] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-24 10:38:21:367071][http-nio-80-exec-8] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {weatherinfo=○ (강수) 28일(일) 오후 중부지방과 전북에, 29일(월) 전국에 비가 오겠습니다.
+○ (기온) 이번 예보기간 아침 기온은 13~21도로 평년(최저기온 13~17도)과 비슷하거나 조금 높겠고, 낮 기온은 21~29도로 평년(최고기온 23~28도)과 비슷하겠습니다.
+○ (주말전망) 27일(토) 전국이 대체로 흐리겠고, 28일(일)은 전국이 대체로 흐리고 오후에 중부지방과 전북에 비가 오겠습니다. 
+              아침 기온은 16~20도, 낮 기온은 22~29도가 되겠습니다.
+
+* 이번 예보기간에는 우리나라 주변 기압계의 변화에 따라 강수시점과 구역이 변경될 가능성이 있으니, 앞으로 발표되는 최신 예보를 참고하기 바랍니다.}
+[2023-05-24 10:38:21:367071][http-nio-80-exec-8] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:38:21:367074][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:21:367091][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-24 10:38:21:367091][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-24 10:38:21:367091][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-24 10:38:21:367091][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:38:21:367091][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-24 10:38:21:367091][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-24 10:38:21:367093][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:21:367093][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:21:367094][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-24 10:38:21:367136][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login?redirectURL=/weather3", parameters={masked}
+[2023-05-24 10:38:21:367136][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-24 10:38:21:367137][http-nio-80-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected '*/*' given [*/*]
+[2023-05-24 10:38:21:367137][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-24 10:38:21:367137][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-24 10:38:21:367138][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
